@@ -2,7 +2,9 @@
  3, 5 -> 243 (3⁵)
  2, 4 -> 16
 */
-/*
+
+/* - решение - */
+
 Console.Clear();
 
 int Exponentiation(int number, int degreeNumber)
@@ -22,7 +24,7 @@ int degreeNumber = Convert.ToInt32(Console.ReadLine());
 
 int exponentiation = Exponentiation(number, degreeNumber);
 Console.WriteLine("Результат: " + exponentiation);
-*/
+
 
 /*Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
 
@@ -32,7 +34,8 @@ Console.WriteLine("Результат: " + exponentiation);
 
 9012 -> 12*/
 
-/*
+/* - решение - */
+
 Console.Clear();
 
 Console.Write("Введите число: ");
@@ -55,13 +58,15 @@ int SumNumber(int numberN)
 }
 
 int sumNumber = SumNumber(numberN);
-Console.WriteLine("Сумма цифр в числе: " + sumNumber);*/
+Console.WriteLine("Сумма цифр в числе: " + sumNumber);
 
 /*Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
 
 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 
 6, 1, 33 -> [6, 1, 33]*/
+
+/* - решение - */
 
 Console.Clear();
 
